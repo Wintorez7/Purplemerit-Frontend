@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
-export default function UserDashboard() {
+const UserDashboard = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -26,3 +26,5 @@ export default function UserDashboard() {
     </div>
   );
 }
+
+export default UserDashboard;
