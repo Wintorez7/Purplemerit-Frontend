@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
-const UserDashboard = () => {
+const userdashboard = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -27,4 +27,4 @@ const UserDashboard = () => {
   );
 }
 
-export default UserDashboard;
+export default userdashboard;

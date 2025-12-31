@@ -16,7 +16,7 @@ interface UsersResponse {
   users: UserType[];
   totalPages: number;
 }
-const AdminDashboard = () => {
+const admindashboard = () => {
   const [users, setUsers] = useState<UserType[]>([]);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
@@ -158,4 +158,4 @@ const AdminDashboard = () => {
   );
 };
 
-export default AdminDashboard;
+export default admindashboard;
