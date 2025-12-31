@@ -10,8 +10,7 @@ import Signup from "./pages/Signup";
 import ForgotPasswordPage from "./pages/forgetpassword/ForgotPasswordPage";
 import Login from "./pages/Login";
 import AdminUsers from "./pages/admin/AdminUsers";
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import UserDashboard from "./pages/user/Userdashboard";
+
 
 
 
@@ -36,8 +35,8 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
             <Route path="/forgetpassword" element={<ForgotPasswordPage />} />
             {/* <Route path="/verify-otp" element={<VerifyOtp />} /> */}
-            <Route path="/admin/dashboard" element={<AdminDashboard/>} />
-            <Route path="/user/dashboard" element={<UserDashboard/>} />
+            {/* <Route path="/admin/dashboard" element={<AdminDashboard/>} />
+            <Route path="/user/dashboard" element={<UserDashboard/>} /> */}
             <Route path="/admin/users" element={<AdminUsers />} />
 
           </Routes>
