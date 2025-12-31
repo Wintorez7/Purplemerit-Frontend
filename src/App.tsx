@@ -11,8 +11,9 @@ import ForgotPasswordPage from "./pages/forgetpassword/ForgotPasswordPage";
 import Login from "./pages/Login";
 import AdminUsers from "./pages/admin/AdminUsers";
 
-import UserDashboard from "./pages/user/userdashboard";
+
 import Admindashboard from "./pages/admin/admindashboard";
+import UserDashboard from "./pages/user/userdashboard";
 
 
 const queryClient = new QueryClient();
